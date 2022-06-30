@@ -1,0 +1,513 @@
+body {
+	margin: 0;
+	font-family: 'Merriweather', serif;
+}
+
+hr {
+	margin: 0 auto;
+	background-color: #E4F9F5;
+	border: 5px;
+	border-style: dotted none none;
+	border-color: #787A91;
+	border-width: 5px;
+	width: 5%;
+}
+
+h1 {
+	padding-left: 75px;
+	font-family: 'Sacramento', cursive;
+	font-size: 5.625rem;
+	font-weight: bold;
+	color: #66BFBF;
+}
+
+h3 {
+	margin: 0 80px 60px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	padding-top: 60px;
+}
+
+h4 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+
+
+
+/*Media*/
+@media (max-width: 600px) {
+	
+	body {
+		margin: 0;
+	}
+
+	/*Title*/
+	h1 {
+		padding-left: 40px;
+	}
+
+	.title-image {
+		width: 250px;
+		height: 250px;
+	}
+	/*Title End*/
+
+	/*About*/
+	.about-liner {
+		display: block;
+		margin-bottom: 10px;
+	}
+	/*About End*/
+}
+/*Media End*/
+
+
+
+
+
+
+/*Title Section*/
+
+.title-text {
+	padding-top: 90px;
+}
+
+.title-bio {
+	font-family: 'Montserrat', sans-serif;	
+	padding: 55px 0 0 25px;	
+	margin-left: 100px;
+	text-align: right;
+}
+
+.title-bio-text {
+	color: #66BFBF;
+	padding: 0 25px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.title-image {
+	top: 5rem;
+	right: 1.25px;
+	margin-right: 1.25rem;
+	margin-left: 2.5rem;
+}
+
+#title-id {
+	background-color: #E4F9F5;
+	margin: 0;
+	padding-bottom: 70px;
+	position: relative;
+	text-align: left;
+}
+
+
+/*Title Section End */
+
+
+
+
+
+
+/*Nav Bar*/
+
+.navbar {
+	padding: 20px 25px 0 0;
+}
+
+.navbar-toggler {
+	margin-bottom: 0.75rem;
+	border-color: #66BFBF;
+}
+
+.navbar-toggler:hover {
+	color: #66BFBF;
+}
+
+.navbar-nav {
+	padding-top: 0.3125rem;
+}
+
+.offcanvas {
+	background-color: #E4F9F5 ;
+}
+
+.btn-close {
+	position: absolute;
+	top: 1.25rem;
+	right: 1.25rem;
+}
+
+.offcanvas-header {
+	padding-top: 2.5rem;
+	padding-left: 7.5rem;
+	padding-bottom: 1.25rem;
+}
+
+
+
+.navbar-image {
+	border-style: solid;
+	border-radius: 100%;
+	border-width: 5px;
+	border-color: #66BFBF;
+}
+
+.navbar-name{
+	padding-left: 7.5rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	font-size: 1.5rem;
+	color: #66BFBF
+}
+
+.nav-item {
+	font-family: 'Montserrat', sans-serif;
+	padding: 0.3125rem 0 0.3125rem;
+}
+
+.navbar-light .navbar-nav .nav-link.active { 
+	color: #66BFBF;
+}
+
+.navbar-light .navbar-nav .nav-link.active:hover { 
+	color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #66BFBF;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #000;
+}
+
+.dropdown-menu {
+	background-color: #E4F9F5;
+}
+
+.dropdown-item {
+	color: #66BFBF;
+}
+
+.dropdown-item:hover {
+	color: #000;
+	background-color: #E4F9F5;
+}
+
+/*Nav Bar End*/
+
+
+
+
+
+
+/*About Me Section */
+
+.profile-pic {
+	margin: 70px 0 10px;
+}
+
+.about-para {
+	margin: 50px 80px;
+	line-height: 2;
+	text-align: justify;
+}
+
+
+.about-bio {
+	margin: 50px 40px 0;
+}
+
+.about-liner {
+	padding: 0 40px;
+}
+
+#about-me {
+	margin-bottom: 100px;
+}
+
+/*About Me Section End*/
+
+
+
+
+
+
+/*Resume Section*/
+ #resume{
+ 	background-color: #E4F9F5;
+ }
+
+/*Projects*/
+
+#projects {
+	margin-bottom: 30px;
+}
+
+.proj-img {
+	border-style: solid;
+	border-color: #DDDDDD;
+	border-width: 4px;
+	overflow: hidden;
+    transition: 0.5s;
+    position: relative;
+}
+
+#projects h4:hover {
+	color: #84DFFF;
+}
+
+/*End of Projects*/
+
+
+
+
+
+/*Work Experience*/
+
+.companies {
+	text-align: center;
+	margin-right: 0px;
+}
+
+.company-align {
+	margin-bottom: 70px;
+	padding-right: 0px;
+}
+
+.company-logo {
+	margin-bottom: 25px;
+}
+
+.company-align h4 {
+	margin-bottom: 20px;
+	color: #66BFBF;
+}
+
+
+
+.company-align p {
+	font-family: 'Montserrat', sans-serif;
+	color: #66BFBF;
+	font-weight: bold;
+}
+
+.company-align a {
+	text-decoration: none;
+}
+
+#work-exp {
+	margin-bottom: 30px;
+}
+
+/*Work Exp End*/
+
+
+
+
+
+
+/*Education*/
+
+.institutes {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.study-spacing a {
+	text-decoration: none;
+}
+
+.card {
+	border-style: solid;
+	border-color:#66BFBF;
+	border-width: 10;
+	width: 80%;
+	overflow: hidden;
+    transition: 0.5s;
+    position: relative;
+}
+
+.card:hover {
+	z-index: 1;
+    transform: scale(1.01);
+    box-shadow: 0 25px 40px rgba(0, 0, 0, 0.25);
+}
+
+.card-body {
+	color: #000;
+	text-align: left;
+}
+
+.card-body:hover {
+	color: #84DFFF;
+}
+
+.card-title {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.card-text {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.study-spacing {
+	padding: 0 50px;
+}
+
+
+#edu {
+	margin-bottom: 60px;
+}
+
+/*Education End */
+
+
+
+
+
+
+/*Other Skills Section*/
+
+#other h4 {
+	margin: 0 80px 40px;
+	font-weight: bold;
+	color: #66BFBF;
+}
+
+#other h5 {
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.lang-box{
+	width: 200px;
+	text-align: center;
+	margin: 0 auto 40px;
+}
+
+.lang-text {
+	color: #66BFBF;
+}
+
+.language {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.carousel-size {
+	margin: 0 auto;
+}
+
+.carousel-size-inner {
+	padding:0 18.75rem;
+	margin: 0 auto;
+	width: 53.125rem;
+	height: 15.625rem;
+}
+
+.carousel-stuff {
+	width: 15.625rem;
+	height: 15.625rem;
+}
+
+.button-color {
+	background-color: #66BFBF;
+	border-radius: 100%;
+}
+
+#other {
+	padding-bottom: 40px;
+}
+
+/*Other skills end*/
+
+
+
+
+
+
+/*Contact Me*/
+
+.contact-text {
+	margin: 0 80px 40px;
+}
+
+#contact h5 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+#contact p {
+	font-weight: bold;
+}
+
+.contact-button {
+	margin: 0 80px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	background-color: #11CDD4;
+	border-width: 0;
+}
+
+.contact-button:hover {
+	background-color: #30E3CB;
+}
+
+#contact {
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+/*Contact Me End */
+
+
+
+
+
+
+/*Footer*/
+
+.links {
+	padding: 25px 0;
+}
+
+.link-text {
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	padding: 0 40px;
+	color: #11999E;
+}
+
+.link-text:hover {
+	color: #EAF6F6;
+}
+
+#footer p {
+	margin-bottom: 0;
+	color: #EAF6F6;
+	font-size: 12px;
+	padding-bottom: 20px;
+}
+
+#footer {
+	background-color: #66BFBF;
+	text-align: center;
+}
+
+/*Footer End
+
+/*Image hover effect*/
+
+.proj-img:hover {
+	z-index: 1;
+	transform: scale(1.01);
+    box-shadow: 0 25px 40px rgba(0, 0, 0, 0.25);
+}
+
+/*hover effect end*/
